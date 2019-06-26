@@ -1,1 +1,2 @@
 - report template
+- Open main.tex file in texmaker or overleaf and run
