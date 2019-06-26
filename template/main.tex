@@ -1,0 +1,61 @@
+\documentclass[
+11pt,
+singlespacing,
+oneside,
+english,
+liststotoc,
+parkskip,
+headsepline,
+]{MastersDoctoralThesis}
+
+\addtolength{\oddsidemargin}{-1.cm}
+\addtolength{\textwidth}{2cm}
+\addtolength{\topmargin}{-2cm}
+\addtolength{\textheight}{3.5cm}
+
+\usepackage[T1]{fontenc}
+\usepackage{mathpazo}
+\usepackage[export]{adjustbox}
+\usepackage[utf8]{inputenc}
+\usepackage{subfig}
+\usepackage[autostyle=true]{csquotes}
+\usepackage[backend=bibtex,style=authoryear,natbib=true]{biblatex}
+\addbibresource{example.bib}
+
+\geometry{ 
+	paper=a4paper,
+	inner=2.5cm,
+	outer=3.8cm,
+	bindingoffset=.5cm,
+	top=1.5cm,
+	bottom=1.5cm,
+}
+
+
+\author{\textsc{Skanda Naglapur Ramamurthy}}
+\university{\href{http://www.university.com}{Hochschule Darmstadt}}
+\department{\href{http://department.university.com}{Department of Electrical Engineering and Information Technology}}
+\degree{Master of Science(M.Sc)}
+\thesistitle{Sensor fusion for localization using CARLA simulation environment}
+
+\AtBeginDocument{
+\hypersetup{pdftitle=\ttitle} 
+\hypersetup{pdfauthor=\authorname} 
+}
+
+\begin{document}
+
+\frontmatter
+\input{./Introduction_pages/title_page.tex}
+\input{./Introduction_pages/declaration_of_originality.tex}
+\input{./Introduction_pages/abstract.tex}
+\input{./Introduction_pages/acknowledgement.tex}
+\tableofcontents
+\listoffigures
+\listoftables
+
+\mainmatter
+\printbibliography
+
+
+\end{document}
