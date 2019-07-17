@@ -1,0 +1,30 @@
+{
+ "waypoints": [
+  {
+   "name": "Amsterdam",
+   "latitude" : 22.6666, &
+   "longitude": 4.89943
+  },
+  {
+   "name": "Darmstadt",
+   "latitude": 49.8787,     
+   "longitude": 8.64693
+  }
+ ],
+ "pois": [
+  {
+   "name": "H_DA",          
+   "latitude": 49.8673,
+   "longitude": 8.6382,
+   "type": "UNIVERSITY",
+   "description": "University of Applied Sciences in Darmstadt"
+  },
+  {
+   "name": "Heidelberg",
+   "latitude": 49.3988,
+   "longitude": 8.6724,
+   "type": "TOURISTIC",       
+   "description": "The History"
+  }
+ ]
+}
